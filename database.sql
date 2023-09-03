@@ -1,0 +1,20 @@
+CREATE DATABASE Pdopost;
+
+USE Pdopost;
+
+CREATE TABLE Post (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    body TEXT,
+    author VARCHAR(255),
+    is_published BOOLEAN DEFAULT true,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE Post (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    body TEXT,
+    author VARCHAR(255),
+    is_published BOOLEAN DEFAULT true,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
